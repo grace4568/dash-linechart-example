@@ -5,21 +5,21 @@ import plotly.graph_objs as go
 
 ########### Define your variables ######
 
-myheading = "Baseball Stats from the 1950s"
-mytitle = "Batting Averages for 3 Hall of Famers"
-x_values = ['1954', '1955', '1956', '1957', '1958', '1959']
-y1_values = [345, 356, 345, 388, 328, 254]
-y2_values = [300, 306, 353, 365, 304, 285]
-y3_values = [280, 314, 328, 322, 326, 355]
-color1 = '#fc9403'
-color2 = '#0307fc'
-color3 = '#9003fc'
-name1 = 'Ted Williams'
-name2 = 'Mickey Mantle'
-name3 = 'Hank Aaron'
-tabtitle = 'baseball'
-sourceurl = 'https://www.baseball-reference.com'
-githublink = 'https://github.com/austinlasseter/dash-linechart-example'
+myheading = "GDP Growth in 2000s"
+mytitle = "GDP Trends for the 3 Major Countries <USA, China, Germany>"
+x_values = ['2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010']
+y1_values = [8.492, 8.34, 9.131, 10.036, 10.111, 11.396, 12.719, 9.654, 9.4, 10.636]
+y2_values = [4.127, 0.998, 1.742, 2.861, 3.799, 3.513, 3.7, 3.261, 1.082, -2.537, 2.564]
+y3_values = [2.962, 1.695, 0, -0.71, 1.17 , 0.707, 3.7, 3.261, 1.082, -5.619, 4.08]
+color1 = '#9B59B6  '
+color2 = '#1ABC9C  '
+color3 = '#D35400  '
+name1 = 'China'
+name2 = 'USA'
+name3 = 'Germany'
+tabtitle = 'GDP'
+sourceurl = 'https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?end=2010&locations=CN-US-DE&start=2000'
+githublink = 'https://github.com/grace456/dash-linechart-example'
 
 ########### Set up the chart
 
